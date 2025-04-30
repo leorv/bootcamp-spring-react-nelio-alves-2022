@@ -1,11 +1,56 @@
-#Bootcamp do professor Nélio Alves.
+# 🎬 DSMovie — Avaliação de Filmes com React + Spring Boot
 
-Você pode testar esse App, e inclusive dar notas aos filmes! link: https://lrv-dsmovie.netlify.app/
+Este é um projeto full stack desenvolvido durante o **Bootcamp do professor Nélio Alves (DevSuperior)**. A aplicação permite que usuários visualizem filmes e realizem avaliações com notas de 1 a 5 estrelas.
 
-## Do que se trata?
+## 🌐 Demonstração
 
-Trata-se de um AppWeb desenvolvido com React no front-end e Java com Spring no back-end.
+> 🔗 O app foi implantado e estava disponível em:  
+> **Frontend:** [https://lrv-dsmovie.netlify.app/](https://lrv-dsmovie.netlify.app/)  (atualmente impossibilitado de consumir dados do backend).
+> **Backend:** hospedado no Heroku (serviço desativado)
 
-## Como foi implantado?
+> 📌 Atualmente, o backend está fora do ar devido à suspensão dos serviços gratuitos da Heroku.
 
-Utilizei a plataforma da Heroku para instalar o back-end e o front-end foi colocado no Netlify. Depois, integramos os dois apenas por meio de uma variável de ambiente. Isso é show.
+---
+
+## 🚀 Tecnologias Utilizadas
+
+### 🔧 Backend
+- Java
+- Spring Boot
+- Spring Data JPA
+- H2 (ambiente local)
+- PostgreSQL (produção)
+- Heroku
+
+### 💻 Frontend
+- React JS
+- Axios
+- React Router
+- Bootstrap
+- Netlify
+
+---
+
+## 🧩 Funcionalidades
+
+Visualização de uma lista de filmes
+
+Detalhes de cada filme
+
+Avaliação de filmes por meio de formulário (nota de 1 a 5)
+
+Integração total entre frontend e backend
+
+## 🛠 Implantação
+
+Backend: Implantado na Heroku utilizando PostgreSQL.
+
+Frontend: Hospedado no Netlify.
+
+Integração: Feita via variável de ambiente (REACT_APP_BACKEND_URL), permitindo fácil adaptação de ambientes.
+
+## 👨‍💻 Desenvolvedor
+
+Leonardo Ruoso Vendramini
+
+Bootcamp Spring + React - DevSuperior
